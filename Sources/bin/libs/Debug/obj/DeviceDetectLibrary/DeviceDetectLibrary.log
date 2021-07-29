@@ -1,0 +1,29 @@
+﻿  stdafx.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Win_WaitObject.cpp
+  Win_Thread.cpp
+  Win_ManualResetEvent.cpp
+  Win_CriticalSection.cpp
+  Win_AutoHandle.cpp
+  Utilities.cpp
+  ResultEnumerator.cpp
+  NotifyWindow.cpp
+  EnumDisks.cpp
+  EnumDevices.cpp
+  DeviceWatcher.cpp
+  DeviceInfo.cpp
+  ConnectionInfo.cpp
+  C_UsbEnumerator.cpp
+  C_ModemdeviceChecker.cpp
+  C_ModemEnumeraror.cpp
+  C_MSEnumerator.cpp
+  C_MSChecker.cpp
+  C_BlackBerryUsbEnumerator.cpp
+  C_AUsbEnumerator.cpp
+  Generating Code...
+  Compiling...
+  AutoCriticalSection.cpp
+  ADeviceWatcher.cpp
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  DeviceDetectLibrary.vcxproj -> E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectLibrary\../bin/libs/Debug\DeviceDetectLibrary.lib

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}</ProjectGuid>
+    <RootNamespace>AutodetectLibrary</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29124.152</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../bin/libs/$(Configuration)\</OutDir>
+    <IntDir>../bin/libs/$(Configuration)/obj/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../bin/libs/$(Configuration)\</OutDir>
+    <IntDir>../bin/libs/$(Configuration)/obj/$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(BOOST);C:\boost_1_71_0\stage\lib;C:\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(BOOST);C:\boost_1_71_0\stage\lib;C:\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ADeviceWatcher.cpp" />
+    <ClCompile Include="AutoCriticalSection.cpp" />
+    <ClCompile Include="ConnectionInfo.cpp" />
+    <ClCompile Include="C_AUsbEnumerator.cpp" />
+    <ClCompile Include="C_BlackBerryUsbEnumerator.cpp" />
+    <ClCompile Include="C_ModemdeviceChecker.cpp" />
+    <ClCompile Include="C_ModemEnumeraror.cpp" />
+    <ClCompile Include="C_MSChecker.cpp" />
+    <ClCompile Include="C_MSEnumerator.cpp" />
+    <ClCompile Include="C_UsbEnumerator.cpp" />
+    <ClCompile Include="DeviceInfo.cpp" />
+    <ClCompile Include="DeviceWatcher.cpp" />
+    <ClCompile Include="EnumDevices.cpp" />
+    <ClCompile Include="EnumDisks.cpp" />
+    <ClCompile Include="NotifyWindow.cpp" />
+    <ClCompile Include="ResultEnumerator.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Win_AutoHandle.cpp" />
+    <ClCompile Include="Win_CriticalSection.cpp" />
+    <ClCompile Include="Win_ManualResetEvent.cpp" />
+    <ClCompile Include="Win_Thread.cpp" />
+    <ClCompile Include="Win_WaitObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADeviceWatcher.h" />
+    <ClInclude Include="AutoCriticalSection.h" />
+    <ClInclude Include="ConnectionInfo.h" />
+    <ClInclude Include="C_AUsbEnumerator.h" />
+    <ClInclude Include="C_BlackBerryUsbEnumerator.h" />
+    <ClInclude Include="C_ModemdeviceChecker.h" />
+    <ClInclude Include="C_ModemEnumeraror.h" />
+    <ClInclude Include="C_MSChecker.h" />
+    <ClInclude Include="C_MSEnumerator.h" />
+    <ClInclude Include="C_UsbEnumerator.h" />
+    <ClInclude Include="DeviceInfo.h" />
+    <ClInclude Include="DeviceWatcher.h" />
+    <ClInclude Include="EnumDevices.h" />
+    <ClInclude Include="EnumDisks.h" />
+    <ClInclude Include="ICollector.h" />
+    <ClInclude Include="IDeviceChanged.h" />
+    <ClInclude Include="IDeviceWatcherObserver.h" />
+    <ClInclude Include="IEnumerator.h" />
+    <ClInclude Include="NotifyWindow.h" />
+    <ClInclude Include="ResultEnumerator.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Win32Types.h" />
+    <ClInclude Include="Win_AutoHandle.h" />
+    <ClInclude Include="Win_CriticalSection.h" />
+    <ClInclude Include="Win_ManualResetEvent.h" />
+    <ClInclude Include="Win_Thread.h" />
+    <ClInclude Include="Win_WaitObject.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

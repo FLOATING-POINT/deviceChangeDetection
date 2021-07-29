@@ -1,0 +1,25 @@
+﻿  stdafx.cpp
+  ADeviceWatcher.cpp
+  AutoCriticalSection.cpp
+  ConnectionInfo.cpp
+  C_AUsbEnumerator.cpp
+  C_BlackBerryUsbEnumerator.cpp
+  C_ModemdeviceChecker.cpp
+  C_ModemEnumeraror.cpp
+  C_MSChecker.cpp
+  C_MSEnumerator.cpp
+  C_UsbEnumerator.cpp
+  DeviceInfo.cpp
+  DeviceWatcher.cpp
+  EnumDevices.cpp
+  EnumDisks.cpp
+  NotifyWindow.cpp
+  ResultEnumerator.cpp
+  Utilities.cpp
+  Win_AutoHandle.cpp
+  Win_CriticalSection.cpp
+  Win_ManualResetEvent.cpp
+  Compiling...
+  Win_Thread.cpp
+  Win_WaitObject.cpp
+  DeviceDetectLibrary.vcxproj -> E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectLibrary\../bin/libs/Release\DeviceDetectLibrary.lib

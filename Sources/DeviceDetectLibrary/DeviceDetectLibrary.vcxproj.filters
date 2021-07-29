@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Connection">
+      <UniqueIdentifier>{d4b03d8e-5639-48d7-8e06-6c983ffa7dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Additional">
+      <UniqueIdentifier>{2616d557-86ec-4c0b-99ab-3becc1018190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Disk">
+      <UniqueIdentifier>{4320cb86-83ca-4ee6-b990-f99f4c3bbf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Connection">
+      <UniqueIdentifier>{3797f2bf-4f5b-435c-be20-f445f9adc233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Additional">
+      <UniqueIdentifier>{1fac63fd-b98d-4c81-8d04-7dd9e0b8a754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a35cfbfb-c417-4032-b5cb-cb5cb80bac5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Disk">
+      <UniqueIdentifier>{a4b5f0a9-e314-4452-858f-f821121e86ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADeviceWatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCriticalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceWatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NotifyWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultEnumerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_AUsbEnumerator.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_BlackBerryUsbEnumerator.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ModemdeviceChecker.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_ModemEnumeraror.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_MSChecker.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_MSEnumerator.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="C_UsbEnumerator.cpp">
+      <Filter>Source Files\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_AutoHandle.cpp">
+      <Filter>Source Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_CriticalSection.cpp">
+      <Filter>Source Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_ManualResetEvent.cpp">
+      <Filter>Source Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Thread.cpp">
+      <Filter>Source Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_WaitObject.cpp">
+      <Filter>Source Files\Additional</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumDevices.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumDisks.cpp">
+      <Filter>Source Files\Disk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADeviceWatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceWatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeviceChanged.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeviceWatcherObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnumerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotifyWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultEnumerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_AUsbEnumerator.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_BlackBerryUsbEnumerator.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ModemdeviceChecker.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_ModemEnumeraror.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_MSChecker.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_MSEnumerator.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="C_UsbEnumerator.h">
+      <Filter>Header Files\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Types.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_AutoHandle.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_CriticalSection.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_ManualResetEvent.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Thread.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_WaitObject.h">
+      <Filter>Header Files\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDevices.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDisks.h">
+      <Filter>Header Files\Disk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

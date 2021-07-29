@@ -1,0 +1,11 @@
+﻿  TestDeviceWatcherObserver.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  DeviceDetectConsole.cpp
+c1xx : fatal error C1083: Cannot open source file: 'TestDeviceWatcherObserver.cpp': No such file or directory
+E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectConsole\DeviceDetectConsole.cpp(11,5): error C2065: 'TestDeviceWatcherObserver': undeclared identifier
+E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectConsole\DeviceDetectConsole.cpp(11,31): error C2146: syntax error: missing ';' before identifier 'crier'
+E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectConsole\DeviceDetectConsole.cpp(11,31): error C2065: 'crier': undeclared identifier
+E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectConsole\DeviceDetectConsole.cpp(14,59): error C2065: 'crier': undeclared identifier
+E:\openframeworks\of_v0.10.1_vs2017_release\apps\myApps\deviceChangeDetection\Sources\DeviceDetectConsole\DeviceDetectConsole.cpp(14,65): error C2660: 'boost::shared_ptr<DeviceDetectLibrary::ADeviceWatcher>::reset': function does not take 1 arguments
+  Generating Code...
+C:\boost_1_71_0\boost\smart_ptr\shared_ptr.hpp(691,10): message : see declaration of 'boost::shared_ptr<DeviceDetectLibrary::ADeviceWatcher>::reset'
